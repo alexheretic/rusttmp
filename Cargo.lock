@@ -1,4 +1,11 @@
 [[package]]
 name = "rusttmp"
 version = "0.1.0"
+dependencies = [
+ "rusttmp_member 0.1.0",
+]
+
+[[package]]
+name = "rusttmp_member"
+version = "0.1.0"
 

@@ -1,3 +1,8 @@
+extern crate rusttmp_member;
+
+use std::u64;
+
 fn main() {
-    println!("Hello, world!");
+    let int: u32 = rusttmp_member::gimme_int();
+    println!("{}", int);
 }

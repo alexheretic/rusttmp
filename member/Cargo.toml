@@ -1,11 +1,8 @@
 [package]
-name = "rusttmp"
+name = "rusttmp_member"
 version = "0.1.0"
 authors = ["Alex Butler <alexheretic@gmail.com>"]
 
 [dependencies]
-rusttmp_member = { path = "member" }
 
 [dev-dependencies]
-
-[workspace]
